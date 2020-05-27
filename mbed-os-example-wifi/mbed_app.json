@@ -1,0 +1,33 @@
+{
+
+    "config": {
+
+        "wifi-ssid": {
+
+            "help": "WiFi SSID",
+
+            "value": "\" Tina's iPhone\""
+
+        },
+
+        "wifi-password": {
+
+            "help": "WiFi Password",
+
+            "value": "\"cambridge\""
+
+        }
+
+    },
+
+    "target_overrides": {
+
+        "*": {
+
+            "platform.stdio-convert-newlines": true
+
+        }
+
+    }
+
+}
